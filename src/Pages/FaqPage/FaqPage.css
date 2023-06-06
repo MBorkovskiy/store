@@ -1,0 +1,9 @@
+.faq_container {
+  width: 50%;
+  margin-inline: auto;
+}
+
+.faq_container h4 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}

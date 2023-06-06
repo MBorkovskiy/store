@@ -1,0 +1,25 @@
+.accordion_div {
+  width: 50%;
+  margin-inline: auto;
+  margin-bottom: 100px;
+}
+
+.people_talk {
+  width: 100%;
+  display: flex;
+  height: 300px;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.slick-slider {
+  width: 100%;
+}
+
+.slick-list {
+  overflow: visible !important;
+}
+
+.slick-dots button:before {
+  color: #0e142c !important;
+}

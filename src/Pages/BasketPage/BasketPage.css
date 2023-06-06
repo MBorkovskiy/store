@@ -1,0 +1,14 @@
+.empty_basket {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.basket_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.basket_footer_button {
+  width: 200px;
+}

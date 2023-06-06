@@ -1,0 +1,28 @@
+.banner {
+  background-color: white;
+  width: 100%;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner_image {
+  width: 500px;
+}
+
+.banner h2 {
+  margin-bottom: 35px;
+}
+
+.width440px {
+  width: 440px;
+}
+
+.fullWidthTxt {
+  font-size: 148px;
+}
+
+.banner_button_box {
+  width: 350px;
+}

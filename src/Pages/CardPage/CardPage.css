@@ -1,0 +1,47 @@
+.cardPageMain {
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.cardImageMain {
+  width: 500px;
+  height: 333px;
+}
+
+.cardInfo {
+  width: 400px;
+}
+
+.cardInfo_btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.full_width_btn {
+  width: 100%;
+}
+
+.brand_stock_rating {
+  display: flex;
+}
+
+.counter {
+  border: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.card_description_category {
+  margin-block: 5px;
+}

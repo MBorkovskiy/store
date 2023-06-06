@@ -1,0 +1,60 @@
+.blockOfCards {
+  margin-top: 30px;
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.cards {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.sort {
+  display: flex;
+  position: relative;
+}
+
+.sort_title {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.List p {
+  margin-left: 5px;
+  text-decoration: underline;
+  color: #0066ff;
+}
+
+.sort_form {
+  background-color: #eee;
+  width: 150px;
+  border-radius: 8px;
+  padding: 15px;
+  position: absolute;
+  left: 140px;
+  z-index: 1;
+}
+
+.sort_form p:hover {
+  cursor: pointer;
+  color: #0066ff;
+}
+
+.title_sort {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin-inline: 50px;
+}
+
+.hidden_txt {
+  color: transparent;
+}
+
+.button_box {
+  width: 18%;
+}
