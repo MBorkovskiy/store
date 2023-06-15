@@ -19,6 +19,7 @@ import {
 import { useNavigate } from "react-router-dom";
 import { getAllCategories } from "../../store/allCategoriesSlice";
 import { useAppDispatch, useAppSelector } from "../../hooks/hooks";
+import { scrollToTop } from "../../utils/constant/scrollToTop";
 
 const CatalogPage = () => {
   const dispatch = useAppDispatch();
@@ -88,6 +89,7 @@ const CatalogPage = () => {
     dispatch(getAllProducts({ limit: 9, skip: skip }));
     dispatch(getAllCategories());
     filterProducts();
+    scrollToTop();
   }, [page]);
 
   useEffect(() => {
