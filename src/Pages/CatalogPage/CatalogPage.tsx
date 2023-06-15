@@ -72,7 +72,7 @@ const CatalogPage = () => {
     if (value == 1) {
       setSkip(0);
     } else {
-      setSkip(page * 12);
+      setSkip(page * 9);
     }
   };
 
@@ -85,7 +85,7 @@ const CatalogPage = () => {
   };
 
   useEffect(() => {
-    dispatch(getAllProducts({ limit: 12, skip: skip }));
+    dispatch(getAllProducts({ limit: 9, skip: skip }));
     dispatch(getAllCategories());
     filterProducts();
   }, [page]);
@@ -138,13 +138,13 @@ const CatalogPage = () => {
           </FormControl>
           <MainButton onClick={filterProducts}>Accept filters</MainButton>
         </div>
-        <CardBox>
+        <CardBox variant="wide">
           {filteredGoods.map((el) => (
             <Card el={el} />
           ))}
         </CardBox>
       </div>
-      {filteredGoods.length >= 12 && (
+      {filteredGoods.length >= 9 && (
         <Pagination
           count={Math.ceil(100 / 8)}
           page={page}

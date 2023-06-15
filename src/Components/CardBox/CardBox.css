@@ -1,6 +1,14 @@
-.card_box {
+.card_box_default_gap {
   display: flex;
-  gap: 30px;
+  gap: 24px;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.card_box_wide_gap {
+  display: flex;
+  gap: 39px;
   flex-wrap: wrap;
   width: 100%;
   margin-bottom: 100px;

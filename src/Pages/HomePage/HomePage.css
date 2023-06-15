@@ -12,12 +12,20 @@
   overflow-x: hidden;
 }
 
+.category_container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+  justify-content: center;
+}
+
 .slick-slider {
   width: 100%;
 }
 
 .slick-list {
   overflow: visible !important;
+  margin-bottom: 15px;
 }
 
 .slick-dots button:before {

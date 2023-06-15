@@ -13,7 +13,7 @@ export const Banner: FC = () => {
         <h2>LENNON R2D2 WITH NVIDIA 5090 TI</h2>
         <Link to="/catalog">
           <div className="banner_button_box">
-            <MainButton className="width440px">Shop Now</MainButton>
+            <MainButton>Shop Now</MainButton>
           </div>
         </Link>
       </div>

@@ -1,5 +1,4 @@
 .cardPageMain {
-  width: 1440px;
   display: flex;
   justify-content: center;
   gap: 50px;
@@ -10,7 +9,7 @@
   height: 333px;
 }
 
-.cardInfo {
+.crdInfo_title {
   width: 400px;
 }
 

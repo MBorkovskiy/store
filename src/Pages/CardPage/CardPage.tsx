@@ -45,12 +45,11 @@ const CardPage: FC = () => {
 
   return (
     <>
-      <div></div>
       {Object.keys(product).length !== 0 && (
         <div className="cardPageMain">
           <img className="cardImageMain" src={product.thumbnail} alt="Image" />
           <div className="cardInfo_btn">
-            <div className="cardInfo">
+            <div className="crdInfo_title">
               <h3>{product.title}</h3>
               <h5 className="card_description_category">
                 {product?.category[0]?.toUpperCase() +

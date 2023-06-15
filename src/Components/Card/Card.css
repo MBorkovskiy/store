@@ -1,5 +1,5 @@
 .card {
-  width: 264px;
+  width: 290px;
   height: auto;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
@@ -10,6 +10,7 @@
   justify-content: space-between;
   align-items: start;
   flex-direction: column;
+  width: 100%;
 }
 .description {
   margin-block: 5px;
@@ -19,12 +20,11 @@
   -webkit-box-orient: vertical;
   display: -webkit-box;
   white-space: normal;
-  width: 264px;
+  height: 32px;
 }
 
 .cardInfo_title_title {
   text-transform: uppercase;
-  width: 210px;
 }
 .cardInfo_title_qty {
   font-weight: 600;
@@ -33,7 +33,6 @@
 .cardInfo_title {
   display: flex;
   justify-content: space-between;
-  width: 264px;
 }
 
 .slash {
@@ -52,7 +51,7 @@
 }
 
 .cardImage {
-  height: 200px;
+  height: 250px;
   width: 100%;
 }
 

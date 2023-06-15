@@ -38,10 +38,10 @@ const HomePage = () => {
   };
 
   useEffect(() => {
-    dispatch(getAllProducts({ limit: 5, skip: 0 }));
+    dispatch(getAllProducts({ limit: 4, skip: 0 }));
     dispatch(getAllCategories());
   }, []);
-  console.log(products);
+
   return (
     <>
       <Banner />
@@ -59,9 +59,7 @@ const HomePage = () => {
       {isLoadingAllCategories ? (
         <Loader />
       ) : (
-        <div
-          style={{ display: "flex", flexWrap: "wrap", marginBottom: "100px" }}
-        >
+        <div className="category_container">
           {allCategories.map((el, index) => (
             <CategoryCard el={el} index={index} />
           ))}
